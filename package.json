@@ -1,0 +1,16 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "This is an analog clock, built with HTML,CSS and JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Kühbauch",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1"
+  }
+}

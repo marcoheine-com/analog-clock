@@ -1,0 +1,221 @@
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative; }
+  @supports (display: grid) {
+    body {
+      align-content: center;
+      display: grid;
+      justify-content: center; } }
+
+.watch {
+  border-radius: 50%;
+  height: 470px;
+  position: relative;
+  width: 470px; }
+  .watch .watch__indicators > :nth-of-type(1) {
+    transform: rotate(-90deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(2) {
+    transform: rotate(-84deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(3) {
+    transform: rotate(-78deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(4) {
+    transform: rotate(-72deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(5) {
+    transform: rotate(-66deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(6) {
+    transform: rotate(-60deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(7) {
+    transform: rotate(-54deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(8) {
+    transform: rotate(-48deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(9) {
+    transform: rotate(-42deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(10) {
+    transform: rotate(-36deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(11) {
+    transform: rotate(-30deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(12) {
+    transform: rotate(-24deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(13) {
+    transform: rotate(-18deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(14) {
+    transform: rotate(-12deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(15) {
+    transform: rotate(-6deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(16) {
+    transform: rotate(0deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(17) {
+    transform: rotate(6deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(18) {
+    transform: rotate(12deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(19) {
+    transform: rotate(18deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(20) {
+    transform: rotate(24deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(21) {
+    transform: rotate(30deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(22) {
+    transform: rotate(36deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(23) {
+    transform: rotate(42deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(24) {
+    transform: rotate(48deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(25) {
+    transform: rotate(54deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(26) {
+    transform: rotate(60deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(27) {
+    transform: rotate(66deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(28) {
+    transform: rotate(72deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(29) {
+    transform: rotate(78deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(30) {
+    transform: rotate(84deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(31) {
+    transform: rotate(90deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(32) {
+    transform: rotate(96deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(33) {
+    transform: rotate(102deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(34) {
+    transform: rotate(108deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(35) {
+    transform: rotate(114deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(36) {
+    transform: rotate(120deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(37) {
+    transform: rotate(126deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(38) {
+    transform: rotate(132deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(39) {
+    transform: rotate(138deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(40) {
+    transform: rotate(144deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(41) {
+    transform: rotate(150deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(42) {
+    transform: rotate(156deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(43) {
+    transform: rotate(162deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(44) {
+    transform: rotate(168deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(45) {
+    transform: rotate(174deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(46) {
+    transform: rotate(180deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(47) {
+    transform: rotate(186deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(48) {
+    transform: rotate(192deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(49) {
+    transform: rotate(198deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(50) {
+    transform: rotate(204deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(51) {
+    transform: rotate(210deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(52) {
+    transform: rotate(216deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(53) {
+    transform: rotate(222deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(54) {
+    transform: rotate(228deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(55) {
+    transform: rotate(234deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(56) {
+    transform: rotate(240deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(57) {
+    transform: rotate(246deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(58) {
+    transform: rotate(252deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(59) {
+    transform: rotate(258deg) translate(235px) rotate(90deg); }
+  .watch .watch__indicators > :nth-of-type(60) {
+    transform: rotate(264deg) translate(235px) rotate(90deg); }
+  .watch__hands {
+    height: 100%;
+    position: relative;
+    transform: translateY(-15px);
+    width: 100%; }
+  .watch__hand {
+    position: absolute;
+    top: 50%;
+    transform-origin: 70%; }
+    .watch__hand--hours {
+      background-color: black;
+      height: 30px;
+      left: 19%;
+      width: 44%; }
+    .watch__hand--hours:before {
+      bottom: -6px;
+      transform: rotate(1deg); }
+    .watch__hand--hours:after {
+      top: -6px;
+      transform: rotate(-1deg); }
+    .watch__hand--minutes {
+      background-color: black;
+      height: 30px;
+      left: 3%;
+      width: 67%; }
+    .watch__hand--minutes:before, .watch__hand--minutes:after {
+      content: '';
+      background-color: white;
+      display: block;
+      height: 10px;
+      position: absolute;
+      right: -3px;
+      width: 103%; }
+    .watch__hand--minutes:before {
+      bottom: -6px;
+      transform: rotate(1deg); }
+    .watch__hand--minutes:after {
+      top: -6px;
+      transform: rotate(-1deg); }
+    .watch__hand--seconds {
+      display: flex;
+      flex-direction: column;
+      height: 30px;
+      left: 12%;
+      justify-content: center;
+      width: 54%;
+      z-index: 1; }
+    .watch__hand--seconds:before {
+      background-color: red;
+      border-radius: 50%;
+      content: '';
+      display: block;
+      height: 50px;
+      position: absolute;
+      top: -10px;
+      width: 50px; }
+    .watch__hand--inner {
+      background-color: red;
+      height: 8px;
+      margin-left: 1px; }
+  .watch__indicators {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-3px);
+    top: 50%; }
+  .watch__indicator {
+    background-color: black;
+    height: 16px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform-origin: top;
+    width: 6px;
+    z-index: 1; }
+    .watch__indicator:nth-of-type(5n+1):after {
+      background-color: black;
+      content: '';
+      display: block;
+      height: 54px;
+      left: 50%;
+      position: absolute;
+      top: 0;
+      transform: translateX(-50%);
+      width: 15px; }

@@ -1,0 +1,130 @@
+@mixin circlePosition ($circleSize, $numItems, $rot) {
+  $halfCircle: ($circleSize / 2);
+  $angle: (360 / $numItems);
+  border-radius: 50%;
+  height: $circleSize;
+  position: relative;
+  width: $circleSize;
+
+  @for $i from 1 through $numItems {
+    .watch__indicators>:nth-of-type(#{$i}) {
+      transform: rotate($rot * 1deg) translate($halfCircle) rotate(90deg);
+    }
+    $rot: ($rot + $angle);
+  }
+}
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  @supports (display: grid) {
+    align-content: center;
+    display: grid;
+    justify-content: center;
+  }
+}
+.watch {
+  @include circlePosition(470px, 60, -90);
+  &__hands {
+    height: 100%;
+    position: relative;
+    transform: translateY(-15px);
+    width: 100%;
+  }
+  &__hand {
+    position: absolute;
+    top: 50%;
+    transform-origin: 70%;
+    &--hours {
+      background-color: black;
+      height: 30px;
+      left: 19%;
+      width: 44%;
+    }
+    &--hours:before {
+      bottom: -6px;
+      transform: rotate(1deg);
+    }
+    &--hours:after {
+      top: -6px;
+      transform: rotate(-1deg);
+    }
+    &--minutes {
+      background-color: black;
+      height: 30px;
+      left: 3%;
+      width: 67%;
+    }
+    &--minutes:before,
+    &--minutes:after {
+      content: '';
+      background-color: white;
+      display: block;
+      height: 10px;
+      position: absolute;
+      right: -3px;
+      width: 103%;
+    }
+    &--minutes:before {
+      bottom: -6px;
+      transform: rotate(1deg);
+    }
+    &--minutes:after {
+      top: -6px;
+      transform: rotate(-1deg);
+    }
+    &--seconds {
+      display: flex;
+      flex-direction: column;
+      height: 30px;
+      left: 12%;
+      justify-content: center;
+      width: 54%;
+      z-index: 1;
+    }
+    &--seconds:before {
+      background-color: red;
+      border-radius: 50%;
+      content: '';
+      display: block;
+      height: 50px;
+      position: absolute;
+      top: -10px;
+      width: 50px;
+    }
+    &--inner {
+      background-color: red;
+      height: 8px;
+      margin-left: 1px;
+    }
+  }
+  &__indicators {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-3px);
+    top: 50%;
+  }
+  &__indicator {
+    background-color: black;
+    height: 16px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform-origin: top;
+    width: 6px;
+    z-index: 1;
+    &:nth-of-type(5n+1):after {
+      background-color: black;
+      content: '';
+      display: block;
+      height: 54px;
+      left: 50%;
+      position: absolute;
+      top: 0;
+      transform: translateX(-50%);
+      width: 15px;
+    }
+  }
+}
